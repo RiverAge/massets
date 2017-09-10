@@ -1,64 +1,133 @@
-{
-    "ios":
-        {
-            "20x20": [
-                "icon-20-ipad.png"
-            ],
-            "29x29": [
-                "icon-29-ipad.png",
-                "icon-29.png"
-            ],
-            "40x40": [
-                "icon-20@2x-ipad.png",
-                "icon-20@2x.png",
-                "icon-40.png"
-            ],
-            "50x50": [
-               "icon-50.png" 
-            ],
-            "57x57": [
-               "icon-57.png" 
-            ],
-            "58x58": [
-                "icon-29@2x-ipad.png",
-                "icon-29@2x.png"
-            ],
-            "60x60": [
-                "icon-20@3x.png"
-            ],
-            "72x72": [
-                "icon-72.png"
-            ],
-            "76x76": [
-                "icon-76.png"
-            ],
-            "80x80": [
-                "icon-40@2x.png"
-            ],
-            "87x87": [
-                "icon-29@3x.png"
-            ],
-            "100x100": [
-                "icon-50@2x.png"
-            ],
-            "114x114": [
-                 "icon-57@2x.png"
-            ],
-            "120x120": [
-                 "icon-40@3x.png",
-                "icon-60@2x.png" 
-            ],
-            "144x144": [
-                 "icon-72@2x.png"
-            ],
-            "152x152": [
-                 "icon-76@2x.png"
-            ],
-            "167x167": [
-                 "icon-83.5@2x.png"
-            ],
-            "180x180": [
-                "icon-60@3x.png"
-           ] 
-        }
-}
+[
+    {
+        "dim": "20x20",
+        "files": [
+            "icon-20-ipad.png"
+        ]
+    },
+    {
+        "dim": "29x29",
+        "files": [
+            "icon-29-ipad.png",
+            "icon-29.png"
+        ]
+    },
+    {
+        "dim": "36x36",
+        "dir": "mipmap-ldpi"
+    },
+    {
+        "dim": "40x40",
+        "files": [
+            "icon-20@2x-ipad.png",
+            "icon-20@2x.png",
+            "icon-40.png"
+        ]
+    },
+    {
+        "dim": "48x48",
+        "dir": "mipmap-mdpi"
+    },
+    {
+        "dim": "50x50",
+        "files": [
+            "icon-50.png"
+        ]
+    },
+    {
+        "dim": "57x57",
+        "files": [
+            "icon-57.png"
+        ]
+    },
+    {
+        "dim": "58x58",
+        "files": [
+            "icon-29@2x-ipad.png",
+            "icon-29@2x.png"
+        ]
+    },
+    {
+        "dim": "60x60",
+        "files": [
+            "icon-20@3x.png"
+        ]
+    },
+    {
+        "dim": "72x72",
+        "files": [
+            "icon-72.png"
+        ],
+        "dir": "mipmap-hdpi"
+    },
+    {
+        "dim": "76x76",
+        "files": [
+            "icon-76.png"
+        ]
+    },
+    {
+        "dim": "80x80",
+        "files": [
+            "icon-40@2x.png"
+        ]
+    },
+    {
+        "dim": "87x87",
+        "files": [
+            "icon-29@3x.png"
+        ]
+    },
+    {
+        "dim": "96x96",
+        "dir": "mipmap-xhdpi"
+    },
+    {
+        "dim": "100x100",
+        "files": [
+            "icon-50@2x.png"
+        ]
+    },
+    {
+        "dim": "114x114",
+        "files": [
+            "icon-57@2x.png"
+        ]
+    },
+    {
+        "dim": "120x120",
+        "files": [
+            "icon-40@3x.png",
+            "icon-60@2x.png"
+        ]
+    },
+    {
+        "dim": "144x144",
+        "files": [
+            "icon-72@2x.png"
+        ],
+        "dir": "mipmap-xxhdpi"
+    },
+    {
+        "dim": "152x152",
+        "files": [
+            "icon-76@2x.png"
+        ]
+    },
+    {
+        "dim": "167x167",
+        "files": [
+            "icon-83.5@2x.png"
+        ]
+    },
+    {
+        "dim": "180x180",
+        "files": [
+            "icon-60@3x.png"
+        ]
+    },
+    {
+        "dim": "192x192",
+        "dir": "mipmap-xxxhdpi"
+    }
+]
