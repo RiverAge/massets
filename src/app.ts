@@ -16,7 +16,12 @@ app.post('/upload', upload.single('icon'), (req, res) => {
 
     const buffer = sharp(req.file.buffer)
 
-    const outputFile = path.resolve(__dirname, `../data/${crypto.randomBytes(16).toString('hex')}`)
+    const dataDir =  path.resolve(__dirname, '../data/')
+    if (!fs.existsSync(dataDir)) {
+        fs.mkdirSync(dataDir)
+    }
+
+    const outputFile = path.resolve(__dirname, dataDir + crypto.randomBytes(16).toString('hex'))
     const output = fs.createWriteStream(outputFile)
     const archive = archiver('zip', { gzip: true })
 
